@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    background: linear-gradient(70deg,rgb(243, 243, 153),rgb(247, 229, 210));
+    }
+    h1{
+        color: rgb(47, 46, 46);
+        text-shadow: 0 0 1px rgb(55, 54, 54);
+        margin: 40px;
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+        color: rgb(39, 38, 38);
+        background-color: aliceblue;
+        width: 250px;
+        height: auto;
+        padding: auto;
+        text-align: center;
+        border-radius: 14px;
+        box-shadow: 0 0 10px rgb(139, 137, 137);
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    input{
+        width: 345px;
+        height: 40px;
+        text-align: center; 
+        font-size: medium;
+        padding: 3px;
+        border: none;
+        border-radius: 14px;
+        font-weight: 700;
+        outline: none;
+        box-shadow: 0 0 5px rgb(132, 131, 131);
+    }
+    button.choice{
+        padding: 13px 34px;
+        border-radius: 16px;
+        margin: 7px;
+        background-color: rgb(28, 131, 28);
+        color: white;
+        font-size: large;
+        transition: .4s ease;
+        cursor: pointer;
+        border: none;
+        box-shadow: 0 0 5px black;
+
+        &:hover{
+            background-color: rgb(9, 214, 9);
+            transform: translateY(-2px);
+            transform: scale(1.1);
+        }
+    }
+    button.reset{
+        padding: 15px 40px;
+        border-radius: 16px;
+        margin: 15px;
+        background-color: rgb(250, 23, 23);
+        color: aliceblue;
+        font-size: large;
+        transition: .4s ease;
+        cursor: pointer;
+        border: none;
+        box-shadow: 0 0 5px black;
+
+        &:hover{
+            background-color: rgb(220, 10, 10);
+            transform: scale(1.1);
+        }
+    }
